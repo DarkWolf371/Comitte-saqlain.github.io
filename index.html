@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commetti Payment of Saqlain and Saim</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Commetti Payment Tracker</h1>
+        
+        <table id="payment-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Saqlain's Payment</th>
+                    <th>Saim's Payment</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows for 10 days -->
+                <tr>
+                    <td>Day 1</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-1" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-1" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 2</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-2" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-2" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 3</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-3" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-3" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 4</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-4" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-4" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 5</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-5" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-5" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 6</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-6" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-6" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 7</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-7" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-7" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 8</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-8" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-8" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 9</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-9" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-9" placeholder="Enter Saim's amount"></td>
+                </tr>
+                <tr>
+                    <td>Day 10</td>
+                    <td><input type="number" class="payment-input" id="saqlain-day-10" placeholder="Enter Saqlain's amount"></td>
+                    <td><input type="number" class="payment-input" id="saim-day-10" placeholder="Enter Saim's amount"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button id="submit">Calculate Total</button>
+
+        <div id="result">
+            <h2>Total Paid by Saqlain: <span id="total-paid-saqlain">0</span></h2>
+            <h2>Total Paid by Saim: <span id="total-paid-saim">0</span></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
